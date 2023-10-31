@@ -53,6 +53,9 @@ exec --no-startup-id pipewire
 exec --no-startup-id pipewire-pulse
 exec --no-startup-id wireplumber
 
+# Focus with keyboard or by clicking only
+focus_follows_mouse no
+
 default_border none
 gaps inner 8
 gaps outer 0
